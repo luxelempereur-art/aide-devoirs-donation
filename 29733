@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soutien aux devoirs</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 92%;
+    max-width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #f7f9ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.copy {
+    background: #333;
+    color: white;
+}
+
+.whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
+
+.qr {
+    margin-top: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📚 Soutien aux devoirs</h1>
+<p class="subtitle">
+Aide scolaire personnalisée 📖  
+Ton soutien me permet de continuer mes études ❤️
+</p>
+
+---
+
+<!-- WAVE -->
+<div class="card">
+<h3>💰 Soutenir via Wave</h3>
+
+<p class="number" id="waveNumber">+225 01 73 19 70 57</p>
+
+<button class="copy" onclick="copyWave()">📋 Copier le numéro Wave</button>
+
+<div class="qr">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=2250173197057" />
+</div>
+
+</div>
+
+---
+
+<!-- WHATSAPP -->
+<div class="card">
+<h3>📲 Contact WhatsApp</h3>
+
+<p class="number">+225 05 01 38 87 60</p>
+
+<a class="whatsapp" href="https://wa.me/2250501388760" target="_blank">
+💬 Me contacter sur WhatsApp
+</a>
+
+<div class="qr">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/2250501388760" />
+</div>
+
+</div>
+
+<p style="font-size:12px; color:gray; margin-top:15px;">
+Merci pour ton soutien 🙏 chaque contribution compte.
+</p>
+
+</div>
+
+<script>
+function copyWave() {
+    navigator.clipboard.writeText("2250173197057");
+    alert("Numéro Wave copié !");
+}
+</script>
+
+</body>
+</html>

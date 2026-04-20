@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -94,8 +94,6 @@ Aide scolaire personnalisée 📖
 Ton soutien me permet de continuer mes études ❤️
 </p>
 
----
-
 <!-- WAVE -->
 <div class="card">
 <h3>💰 Soutenir via Wave</h3>
@@ -107,10 +105,7 @@ Ton soutien me permet de continuer mes études ❤️
 <div class="qr">
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=2250173197057" />
 </div>
-
 </div>
-
----
 
 <!-- WHATSAPP -->
 <div class="card">
@@ -125,8 +120,23 @@ Ton soutien me permet de continuer mes études ❤️
 <div class="qr">
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/2250501388760" />
 </div>
-
 </div>
+
+<!-- NOUVELLES SECTIONS -->
+<h2>🎯 Objectif</h2>
+<p>Soutenir mes études et financer mon matériel scolaire afin de continuer à apprendre dans de bonnes conditions.</p>
+
+<h2>📚 Situation</h2>
+<p>Je suis étudiant et je fais de mon mieux pour réussir mes études malgré certaines difficultés financières.</p>
+
+<h2>💰 Utilisation des dons</h2>
+<p>Les dons reçus serviront uniquement à payer les fournitures scolaires, les frais de cours et le matériel d’étude.</p>
+
+<h2>❤️ Confiance</h2>
+<p>Chaque contribution, même petite, est importante et m’aide directement à avancer dans mon parcours scolaire.</p>
+
+<h2>🙏 Remerciement</h2>
+<p>Merci à toutes les personnes qui prennent le temps de soutenir mon projet et de croire en mon avenir.</p>
 
 <p style="font-size:12px; color:gray; margin-top:15px;">
 Merci pour ton soutien 🙏 chaque contribution compte.
